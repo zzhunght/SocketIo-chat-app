@@ -1,0 +1,35 @@
+.wrapper{
+    width: 700px;
+    margin:200px auto;
+}
+
+.chat-gruop{
+    display:flex;
+    margin-top:20px;
+}
+.chat-list {
+    width: 30%;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    padding: 11px;
+}
+#chat-list-title{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+
+}
+.welcome{
+    text-align: right;
+}
+.box-chat-content{
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.chat-content{
+    flex: 1;
+}
+.your-ms {
+    text-align: right;
+}
